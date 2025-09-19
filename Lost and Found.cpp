@@ -47,14 +47,15 @@ int main(){
     cin >> pilihan;
     if(pilihan == 1){
         string kata_asli;
+        cout << "Masukkan kata asli: ";
         cin >> kata_asli;
         KataSandi(kata_asli);
     } else if(pilihan == 2){
         string kata_sandi;
+        cout << "Masukkan kata sandi: ";
         cin >> kata_sandi;
         KataAsli(kata_sandi);
     } else {
         cout << "Pilihan tidak tersedia";
     }
 }
-
